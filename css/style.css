@@ -45,7 +45,7 @@ body {
     border-radius: 1cm;
     text-align: center;
     font-family: cursive;
-    background-image: url(/assets/fron-background.jpg);
+    background-image: url(/sammy-portfolio/assets/fron-background.jpg);
     background-size: cover;
     
     
@@ -63,7 +63,7 @@ body {
     border-radius: 1cm;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(/assets/mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg);
+    background-image: url(/sammy-portfolio/assets/mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg);
     background-size: cover;
 }
 .card-animation {
