@@ -417,3 +417,20 @@ margin: 0px 100px;
         background-color: #000000
     }
 }
+.fade-in {
+    animation: myAnimFade 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnimFade {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0) rotate(0deg);
+	}
+}
+.fade-in {
+    color: rgb(103, 103, 103);
+}
