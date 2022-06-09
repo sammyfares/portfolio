@@ -9,3 +9,18 @@ and for the last thing i have my map function
 https://trello.com/b/McAmfacn/portfolio
 
 ![](image.png)
+
+# websites i used / vidoes i watched
+
+https://youtu.be/jx5jmI0UlXU
+https://youtu.be/1PnVor36_40
+https://webcode.tools/generators/css/keyframe-animation
+https://getbootstrap.com/
+https://youtu.be/fYq5PXgSsbE
+and davids videos as well 
+https://youtu.be/MBaw_6cPmAw
+
+# ice box 
+
+i need alot of work on my css and i need to start doing projects that i think of and try to immplment 
+because with practice is the only way were someone can learn .
