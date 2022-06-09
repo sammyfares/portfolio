@@ -1,0 +1,330 @@
+body {
+    background-color: black;
+    position: relative;
+    
+}
+.body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.maincontainer {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+     
+
+}
+.maincontainer:hover .thecard{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(253, 253, 253);
+    color: rgb(250, 250, 250);
+    border-radius: 1cm;
+    text-align: center;
+    font-family: cursive;
+    background-image: url(/assets/fron-background.jpg);
+    background-size: cover;
+    
+    
+
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(107, 99, 99);
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 1cm;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(/assets/mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg);
+    background-size: cover;
+}
+.card-animation {
+    animation: myAnim 2s ease 0s infinite normal none;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 0;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+h2 { 
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: xx-large;
+    transition: 0.1s;
+    width: 250px;
+    margin: auto;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+ h2:hover{
+     opacity: 40%;
+     color: rgb(195, 195, 195);
+     
+ }
+
+nav {
+    display: flex;
+    color: rgb(48, 130, 202);
+    font-size: large;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+nav > div {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 12px;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Tangerine', cursive;
+}
+nav > div:last-child{
+    margin-left: auto;
+}
+
+
+
+#Paragraph {
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    
+}
+a.logo{
+    display: block;
+    color: rgb(255, 0, 0);
+    width: 100px;
+    height: max-content;
+    justify-items: center;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    
+
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid red;
+
+   
+    
+}
+ul {
+    list-style: none;
+}
+ul > li {
+    display: none;
+}
+.Home{
+    display: inline-block;
+
+
+    transition: all 1s ease;
+    border: 1px solid red;
+}
+.Home :hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    
+}
+.icon-logo{
+    height: 60px;
+    width: 100px;
+}
+/**/
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    display: none;
+    
+    
+}
+
+
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 220px;
+    z-index: 10;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    
+
+}
+.popup.active .overlay {
+    display: block;
+    
+}
+ .popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+    
+ }
+
+
+
+/**/
+
+.title {
+    display: flex;
+    color: aliceblue;
+    border: 1px solid rgb(0, 132, 15);
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+
+    
+
+}
+.para-project {
+    flex-basis: 50%;
+    color: rgb(255, 255, 255);
+    border: 1px solid rebeccapurple;
+    
+    margin-top: 10px;
+    
+}
+.picture-img {
+    flex-basis: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    
+}
+
+/**/
+.Ruseme  {
+    color: aliceblue;
+}
+.picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+.popup-menuu {
+    color: black;
+}
+.popup-title {
+    color: black;
+}
+@media only screen and (max-width: 400px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+/*  */
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
