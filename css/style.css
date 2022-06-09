@@ -18,7 +18,7 @@ body {
     height: 320px;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
 }
 
@@ -111,7 +111,7 @@ h2 {
     transition: 0.1s;
     width: 250px;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 30px;
 }
  h2:hover{
@@ -179,7 +179,7 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
    
     
@@ -335,5 +335,48 @@ button {
     
     left: auto;
     right: auto;
+    color: #000000;
+    background-color: #000000;
     
+}
+
+.btn-primary {
+    background-color: #000000;
+}
+.card-body{
+    background-color: #292929;
+}
+.card-title {
+    color: aliceblue;
+    animation: myCardAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myCardAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+.card-img-top {
+    background-color: #000000;
 }
