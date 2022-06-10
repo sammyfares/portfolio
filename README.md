@@ -21,6 +21,4 @@ and davids videos as well
 https://youtu.be/MBaw_6cPmAw
 
 # ice box 
-
-i need alot of work on my css and i need to start doing projects that i think of and try to immplment 
-because with practice is the only way were someone can learn .
+//
