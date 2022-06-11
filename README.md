@@ -8,7 +8,7 @@ and for the last thing i have my map function
 
 https://trello.com/b/McAmfacn/portfolio
 
-![](image.png)
+
 
 # websites i used / vidoes i watched
 
@@ -20,5 +20,18 @@ https://youtu.be/fYq5PXgSsbE
 and davids videos as well 
 https://youtu.be/MBaw_6cPmAw
 
+# technology
+HTML
+CSS 
+JAVASCRIPT
+
 # ice box 
 //
+wanna add a drop menu 
+wana to make my about me smoother 
+over all website better 
+better nav bar 
+more content 
+
+
+![ScreenShot](Screen%20Shot%202022-06-10%20at%208.08.53%20PM.png)
