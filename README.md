@@ -27,11 +27,14 @@ JAVASCRIPT
 
 # ice box 
 //
-wanna add a drop menu 
-wana to make my about me smoother 
-over all website better 
-better nav bar 
-more content 
+I want to add a drop menu.
+//
+I want to make my website look better.
+//
+I want to add more Content on the page.
+// 
+want to add a hamburger menu.
+//
 
 
 ![ScreenShot](Screen%20Shot%202022-06-10%20at%208.08.53%20PM.png)
